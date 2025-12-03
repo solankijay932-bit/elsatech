@@ -7,7 +7,7 @@
 
 body {
     background: #0A2A43; /* secondary color */
-    color: #e4e4e4;
+    color: #ffffff; /* changed to white */
 }
 
 header {
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e4e4e4;
+    color: #ffffff; /* changed to white */
     text-decoration: none;
     transition: .3s;
 }
@@ -59,6 +59,7 @@ nav ul li a:hover {
     text-align: center;
     background: linear-gradient(120deg, #0A2A43, #121624); /* secondary color gradient */
     padding: 0 20px;
+    color: #ffffff; /* text color white */
 }
 
 .hero h1 {
@@ -70,6 +71,7 @@ nav ul li a:hover {
     max-width: 600px;
     margin: 20px 0;
     font-size: 1.2rem;
+    color: #ffffff; /* white text */
 }
 
 .btn {
@@ -84,11 +86,13 @@ nav ul li a:hover {
 
 .btn:hover {
     background: #0A2A43; /* secondary color on hover */
+    color: #ffffff; /* white on hover */
 }
 
 .section {
     padding: 80px 20px;
     text-align: center;
+    color: #ffffff; /* white text */
 }
 
 .section h2 {
@@ -111,6 +115,7 @@ nav ul li a:hover {
     border-radius: 8px;
     border: 1px solid #1f2330;
     transition: .3s;
+    color: #ffffff; /* white text */
 }
 
 .service-card:hover {
@@ -130,6 +135,7 @@ nav ul li a:hover {
     padding: 40px;
     border-radius: 6px;
     border: 1px solid #1f2330;
+    color: #ffffff; /* white text */
 }
 
 .contact-form {
@@ -138,6 +144,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #ffffff; /* white text */
 }
 
 .contact-form input,
@@ -145,7 +152,7 @@ nav ul li a:hover {
     padding: 12px;
     background: #0A2A43; /* secondary color */
     border: 1px solid #2a2f40;
-    color: white;
+    color: #ffffff; /* white text inside input */
     border-radius: 6px;
 }
 
@@ -155,11 +162,13 @@ nav ul li a:hover {
     border: none;
     font-weight: bold;
     border-radius: 6px;
+    color: #000;
 }
 
 footer {
     text-align: center;
     padding: 20px;
     background: #0A2A43; /* secondary color */
+    color: #ffffff; /* white text */
     margin-top: 40px;
 }
